@@ -4,11 +4,17 @@ import {
   AvatarImage,
   HStack,
   Heading,
-  Text,
+  Icon,
   VStack,
 } from "@gluestack-ui/themed";
+import { Dot } from "lucide-react-native";
 
-export default function AvatarComponent({ name, profilePic, position }) {
+export default AvatarComponent = ({
+  name,
+  profilePic,
+  status,
+  statusColor,
+}) => {
   return (
     <VStack space='2xl'>
       <HStack space='md'>
@@ -21,14 +27,19 @@ export default function AvatarComponent({ name, profilePic, position }) {
           />
         </Avatar>
         <VStack>
-          <Heading color='white' size='sm'>
+          <Heading color='white' size='md'>
             {name}
           </Heading>
-          {position.length > 0 && (
-            <Text size='sm'>{`Position: ${position}`}</Text>
+          {status && status.length > 0 && (
+            <HStack sx={{ textJustify: "center" }}>
+              <Heading color='grey' size='xs'>
+                {status}
+              </Heading>
+              <Icon color={statusColor} as={Dot} size='sm' />
+            </HStack>
           )}
         </VStack>
       </HStack>
     </VStack>
   );
-}
+};

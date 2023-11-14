@@ -7,6 +7,8 @@ export const infoParser = (ar) => {
     companyName: "",
     position: "",
     site: "",
+    status: "",
+    statusColor: "",
   };
   for (const data of ar) {
     const dataAr = data.split(": ");
@@ -14,6 +16,8 @@ export const infoParser = (ar) => {
       userObj["profilePic"] = dataAr[1];
     } else if (dataAr[0] === "company name") {
       userObj["companyName"] = dataAr[1];
+    } else if (dataAr[0] === "status color") {
+      userObj["statusColor"] = dataAr[1];
     } else {
       userObj[dataAr[0]] = dataAr[1];
     }

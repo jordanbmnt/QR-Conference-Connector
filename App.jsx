@@ -1,12 +1,13 @@
-import { GluestackUIProvider } from "@gluestack-ui/themed";
 import LandingPage from "./Pages/LandingPage";
 import { StatusBar } from "expo-status-bar";
+import { Provider } from "react-redux";
+import { store } from "./Redux/store";
 
 export default function App() {
   return (
-    <GluestackUIProvider>
+    <Provider store={store}>
       <LandingPage />
       <StatusBar hidden></StatusBar>
-    </GluestackUIProvider>
+    </Provider>
   );
 }

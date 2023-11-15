@@ -1,0 +1,21 @@
+import appSlice, { setViewContact } from "./appSlice";
+
+describe("appSlice ", function () {
+    let initialState;
+    beforeEach(() => {
+        initialState = {
+            viewContactInfo: false,
+            scanViewVisible: true,
+            previousPage: false,
+            contactInfo: {},
+            alertInfo: {
+                visibility: false,
+                theme: "",
+            }
+        }
+    })
+    it("should be able to set the currentViewContact", function () {
+        const nextState = appSlice(initialState, setViewContact(true));
+        expect(nextState.viewContactInfo).toBe(true);
+    });
+});

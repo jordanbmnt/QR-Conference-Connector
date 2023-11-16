@@ -28,4 +28,27 @@ describe("infoParser", function () {
     const parsedData = infoParser(unParsedData);
     expect(parsedData).toEqual(parsedDataObj);
   });
+  it("should return a complete object when information is missing", function () {
+    const unParsedData = [
+      "name: Jane",
+      "email: jane@gmail.com",
+      "github: https://github.com/jordanbmnt",
+      "company name: Spotify",
+      "status: available",
+      "status color: green",
+    ];
+    const parsedDataObj = {
+      companyName: "Spotify",
+      email: "jane@gmail.com",
+      github: "https://github.com/jordanbmnt",
+      name: "Jane",
+      position: "",
+      profilePic: "",
+      site: "",
+      status: "available",
+      statusColor: "green",
+    };
+    const parsedData = infoParser(unParsedData);
+    expect(parsedData).toEqual(parsedDataObj);
+  });
 });

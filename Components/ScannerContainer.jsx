@@ -12,7 +12,7 @@ import {
 import * as SQLite from "expo-sqlite";
 import { BarCodeScanner } from "expo-barcode-scanner";
 import { Box } from "@gluestack-ui/themed";
-import { infoParser } from "../HelperFunctions/infoParser";
+import { infoParser } from "../HelperFunctions/infoParser/infoParser";
 import {
   addContact,
   createTable,

@@ -1,4 +1,4 @@
-import appSlice, { setScanViewVisible, setViewContact } from "./appSlice";
+import appSlice, { setPreviousPage, setScanViewVisible, setViewContact } from "./appSlice";
 
 describe("appSlice ", function () {
     let initialState;
@@ -18,8 +18,12 @@ describe("appSlice ", function () {
         const nextState = appSlice(initialState, setViewContact(true));
         expect(nextState.viewContactInfo).toBe(true);
     });
-    it("should be able to set the setScannedVisible", function () {
+    it("should be able to set the scannedVisible", function () {
         const nextState = appSlice(initialState, setScanViewVisible(false));
         expect(nextState.scanViewVisible).toBe(false);
+    });
+    it("should be able to set the previousPage", function () {
+        const nextState = appSlice(initialState, setPreviousPage(true));
+        expect(nextState.scanViewVisible).toBe(true);
     });
 });

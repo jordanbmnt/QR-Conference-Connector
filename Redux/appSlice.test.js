@@ -1,4 +1,4 @@
-import appSlice, { setPreviousPage, setScanViewVisible, setViewContact } from "./appSlice";
+import appSlice, { setContactInfo, setPreviousPage, setScanViewVisible, setViewContact } from "./appSlice";
 
 describe("appSlice ", function () {
     let initialState;
@@ -24,6 +24,10 @@ describe("appSlice ", function () {
     });
     it("should be able to set the previousPage", function () {
         const nextState = appSlice(initialState, setPreviousPage(true));
-        expect(nextState.scanViewVisible).toBe(true);
+        expect(nextState.previousPage).toBe(true);
+    });
+    it("should be able to set the contactInfo", function () {
+        const nextState = appSlice(initialState, setContactInfo({name: 'jordan'}));
+        expect(nextState.contactInfo).toEqual({name: 'jordan'});
     });
 });

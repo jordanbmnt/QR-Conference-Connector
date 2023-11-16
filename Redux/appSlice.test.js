@@ -1,4 +1,4 @@
-import appSlice, { setContactInfo, setPreviousPage, setScanViewVisible, setViewContact } from "./appSlice";
+import appSlice, { setAlertTheme, setAlertVisibility, setContactInfo, setPreviousPage, setScanViewVisible, setViewContact } from "./appSlice";
 
 describe("appSlice ", function () {
     let initialState;
@@ -27,7 +27,13 @@ describe("appSlice ", function () {
         expect(nextState.previousPage).toBe(true);
     });
     it("should be able to set the contactInfo", function () {
-        const nextState = appSlice(initialState, setContactInfo({name: 'jordan'}));
-        expect(nextState.contactInfo).toEqual({name: 'jordan'});
+        const nextState = appSlice(initialState, setContactInfo({ name: 'jordan' }));
+        expect(nextState.contactInfo).toEqual({ name: 'jordan' });
+    });
+    it("should be able to set the alertInfo", function () {
+        let nextState = appSlice(initialState, setAlertVisibility(true));
+        expect(nextState.alertInfo.visibility).toBe(true);
+        nextState = appSlice(initialState, setAlertTheme("error"));
+        expect(nextState.alertInfo.theme).toBe("error");
     });
 });

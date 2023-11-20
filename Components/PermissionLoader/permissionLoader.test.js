@@ -8,4 +8,7 @@ describe("PermissionLoader", function(){
     it("should contain a view element", function(){
         expect(loader.type).toBe("View");
     });
+    it("should contain a View with one child", function(){
+        expect(loader.children.length).toBe(1);
+    });
 });

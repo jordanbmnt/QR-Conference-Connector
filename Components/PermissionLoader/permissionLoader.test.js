@@ -11,4 +11,7 @@ describe("PermissionLoader", function(){
     it("should contain a View with one child", function(){
         expect(loader.children.length).toBe(1);
     });
+    it("should contain a loader of size 42", function(){
+        expect(loader.children[0].props.size).toBe(42);
+    });
 });

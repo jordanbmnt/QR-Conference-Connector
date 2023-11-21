@@ -2,7 +2,7 @@ import { View } from "react-native";
 import { StyleSheet } from "react-native";
 import { Spinner } from "@gluestack-ui/themed";
 
-export default PermissionsLoader = () => {
+export default PermissionLoader = () => {
   return (
     <View style={styles.permissionLoader}>
       <Spinner size={42} />

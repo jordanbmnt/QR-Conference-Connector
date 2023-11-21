@@ -19,9 +19,9 @@ import {
   getAllContactsAsc,
 } from "../HelperFunctions/sqlHelperFunctions";
 import ContactList from "./ContactList";
-import PermissionLoader from "./PermissionLoader";
+import PermissionLoader from "./PermissionLoader/PermissionLoader";
 import Scanner from "./Scanner";
-import ImageStatus from "./ImageStatus";
+import ImageStatus from "./ImageStatus/ImageStatus";
 import NavButtons from "./NavButtons";
 
 export default ScannerContainer = () => {

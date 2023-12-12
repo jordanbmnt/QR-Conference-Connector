@@ -1,0 +1,464 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavButtons should display a list of four buttons (button element and text) when the Scan View is visible and Previous Page exists 1`] = `
+<View
+  data-style=""
+  dataSet={
+    {
+      "style": "",
+    }
+  }
+  style={
+    [
+      undefined,
+      {},
+      {
+        "flexDirection": "row",
+      },
+      undefined,
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    action="primary"
+    collapsable={false}
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    role="button"
+    size="md"
+    style={
+      [
+        undefined,
+        {},
+        {
+          "alignItems": "center",
+          "backgroundColor": "#0077E6",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "margin": 30,
+          "marginBottom": 40,
+          "marginTop": 0,
+        },
+        undefined,
+      ]
+    }
+    sx={
+      {
+        "margin": 30,
+        "marginBottom": 40,
+        "marginTop": 0,
+      }
+    }
+    variant="solid"
+  >
+    <Text
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      size="md"
+      style={
+        [
+          undefined,
+          {},
+          {
+            "color": "#525252",
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+          },
+          undefined,
+          {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          undefined,
+          {
+            "color": "#FCFCFC",
+            "fontWeight": "600",
+          },
+          {
+            "color": "#005DB4",
+          },
+          {
+            "color": "#FCFCFC",
+          },
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          undefined,
+        ]
+      }
+    >
+      Contacts
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    action="primary"
+    collapsable={false}
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    role="button"
+    size="md"
+    style={
+      [
+        undefined,
+        {},
+        {
+          "alignItems": "center",
+          "backgroundColor": "#0077E6",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        undefined,
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "margin": 30,
+          "marginBottom": 40,
+          "marginTop": 0,
+        },
+        undefined,
+      ]
+    }
+    sx={
+      {
+        "margin": 30,
+        "marginBottom": 40,
+        "marginTop": 0,
+      }
+    }
+    variant="solid"
+  >
+    <Text
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      size="md"
+      style={
+        [
+          undefined,
+          {},
+          {
+            "color": "#525252",
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+          },
+          undefined,
+          {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          undefined,
+          {
+            "color": "#FCFCFC",
+            "fontWeight": "600",
+          },
+          {
+            "color": "#005DB4",
+          },
+          {
+            "color": "#FCFCFC",
+          },
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          undefined,
+        ]
+      }
+    >
+      Back
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`NavButtons should display a list of two buttons (button element and text) 1`] = `
+<View
+  data-style=""
+  dataSet={
+    {
+      "style": "",
+    }
+  }
+  style={
+    [
+      undefined,
+      {},
+      {
+        "flexDirection": "row",
+      },
+      {},
+      undefined,
+    ]
+  }
+>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": false,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    action="primary"
+    collapsable={false}
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    role="button"
+    size="md"
+    style={
+      [
+        undefined,
+        {},
+        {
+          "alignItems": "center",
+          "backgroundColor": "#0077E6",
+          "borderRadius": 4,
+          "flexDirection": "row",
+          "justifyContent": "center",
+        },
+        {},
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "backgroundColor": "#0077E6",
+          "borderColor": "#4AA9FF",
+        },
+        {},
+        {
+          "height": 40,
+          "paddingHorizontal": 20,
+        },
+        {},
+        {
+          "margin": 30,
+          "marginBottom": 40,
+          "marginTop": 0,
+        },
+        undefined,
+      ]
+    }
+    sx={
+      {
+        "margin": 30,
+        "marginBottom": 40,
+        "marginTop": 0,
+      }
+    }
+    variant="solid"
+  >
+    <Text
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      size="md"
+      style={
+        [
+          undefined,
+          {},
+          {
+            "color": "#525252",
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+          },
+          {},
+          {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          {},
+          {
+            "color": "#FCFCFC",
+            "fontWeight": "600",
+          },
+          {
+            "color": "#005DB4",
+          },
+          {
+            "color": "#FCFCFC",
+          },
+          {},
+          {
+            "color": "#FCFCFC",
+          },
+          undefined,
+        ]
+      }
+    >
+      Contacts
+    </Text>
+  </View>
+</View>
+`;

@@ -11,9 +11,10 @@
     "tw": "jest --watch"
   },
   "jest": {
+    "testEnvironment": "jsdom",
     "preset": "jest-expo",
     "transformIgnorePatterns": [
-      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|@gluestack-ui|@gluestack-ui/.*|@legendapp/motion)"
+      "node_modules/(?!((jest-)?react-native|@react-native(-community)?)|expo(nent)?|@expo(nent)?/.*|@expo-google-fonts/.*|react-navigation|@react-navigation/.*|@unimodules/.*|unimodules|sentry-expo|native-base|react-native-svg|@gluestack-ui|@gluestack-ui/.*|@gluestack-style/.*|@gluestack-style|@legendapp/motion)"
     ],
     "testMatch": [
       "**/?(*.)+(spec|test).js?(x)"
@@ -49,6 +50,7 @@
   "devDependencies": {
     "@babel/core": "^7.20.0",
     "@expo/webpack-config": "^19.0.0",
+    "@testing-library/react-native": "^12.4.1",
     "@types/react": "~18.2.14",
     "typescript": "^5.1.3"
   },

@@ -6,17 +6,17 @@ export default ImageStatus = ({ theme }) => {
       {theme === "noContacts" ? (
         <Image
           style={styles.img}
-          source={require("../assets/images/noContacts.png")}
+          source={require("../../assets/images/noContacts.png")}
           alt='noContact'
         />
       ) : theme === "invalidQR" ? (
         <Image
-          source={require("../assets/images/invalidQR.png")}
+          source={require("../../assets/images/invalidQR.png")}
           alt='invalidQR'
         />
       ) : theme === "permission" ? (
         <Image
-          source={require("../assets/images/permission.png")}
+          source={require("../../assets/images/permission.png")}
           alt='permission'
         />
       ) : null}

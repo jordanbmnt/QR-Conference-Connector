@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImageStatus should render the image component correctly 1`] = `
+<View
+  style={
+    {
+      "alignContent": "center",
+      "height": "80%",
+      "justifyContent": "center",
+      "opacity": 0.5,
+    }
+  }
+/>
+`;
+
+exports[`ImageStatus should render the imageStatus component correctly 1`] = `
+<View
+  style={
+    {
+      "alignContent": "center",
+      "height": "80%",
+      "justifyContent": "center",
+      "opacity": 0.5,
+    }
+  }
+/>
+`;

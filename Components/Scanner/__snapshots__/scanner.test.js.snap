@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Scanner should render the Scanner component correctly 1`] = `
+<View
+  data-style=""
+  dataSet={
+    {
+      "style": "",
+    }
+  }
+  style={
+    [
+      undefined,
+      {},
+      {},
+      undefined,
+      {
+        "height": "90%",
+        "paddingBottom": 0,
+        "width": "100%",
+      },
+      undefined,
+    ]
+  }
+  sx={
+    {
+      "height": "90%",
+      "paddingBottom": 0,
+      "width": "100%",
+    }
+  }
+>
+  <Text
+    accessibilityRole="header"
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    style={
+      {
+        "backgroundColor": "#131721",
+        "borderBottomLeftRadius": 0,
+        "borderBottomRightRadius": 0,
+        "borderRadius": 9,
+        "color": "#E5E5E5",
+        "fontFamily": undefined,
+        "fontSize": 36,
+        "fontWeight": "700",
+        "height": "16%",
+        "letterSpacing": -0.2,
+        "lineHeight": 56,
+        "marginVertical": 0,
+        "padding": 6,
+        "paddingTop": 32,
+        "textAlign": "center",
+        "width": "100%",
+        "zIndex": 1,
+      }
+    }
+  >
+    Scan QR
+  </Text>
+  <ViewManagerAdapter_ExpoBarCodeScanner
+    barCodeTypes={[]}
+    onBarCodeScanned={[Function]}
+    style={
+      [
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        },
+        {
+          "marginBottom": 0,
+        },
+      ]
+    }
+  />
+</View>
+`;

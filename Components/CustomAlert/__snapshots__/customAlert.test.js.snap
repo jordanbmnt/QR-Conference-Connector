@@ -1,0 +1,301 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomAlert should render the alert component correctly 1`] = `
+<View
+  action="error"
+  data-style=""
+  dataSet={
+    {
+      "style": "",
+    }
+  }
+  role="alert"
+  style={
+    [
+      undefined,
+      {},
+      {
+        "alignItems": "center",
+        "borderRadius": 4,
+        "flexDirection": "row",
+        "padding": 12,
+      },
+      {},
+      {
+        "backgroundColor": "#FEF1F1",
+        "borderColor": "#F87171",
+      },
+      {},
+      {
+        "backgroundColor": "#FEF1F1",
+        "borderColor": "#F87171",
+      },
+      {},
+      {
+        "position": "absolute",
+        "top": 40,
+        "zIndex": 10,
+      },
+      undefined,
+    ]
+  }
+  sx={
+    {
+      "position": "absolute",
+      "top": 40,
+      "zIndex": 10,
+    }
+  }
+  variant="solid"
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight="24"
+    bbWidth="24"
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    fill="none"
+    focusable={false}
+    height={24}
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    stroke="currentColor"
+    strokeLinecap="round"
+    strokeLinejoin="round"
+    strokeWidth={2}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        [
+          undefined,
+          {},
+          {
+            "color": "#404040",
+          },
+          {},
+          {
+            "height": 24,
+            "width": 24,
+          },
+          undefined,
+          {},
+          {},
+          {},
+          {
+            "color": "#E63535",
+          },
+          {
+            "marginRight": 12,
+          },
+          undefined,
+        ],
+        {
+          "flex": 0,
+          "height": 24,
+          "width": 24,
+        },
+      ]
+    }
+    tabIndex={-1}
+    tintColor="#E63535"
+    vbHeight={24}
+    vbWidth={24}
+    width={24}
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <RNSVGGroup
+      fill={null}
+      propList={
+        [
+          "fill",
+          "stroke",
+          "strokeWidth",
+          "strokeLinecap",
+          "strokeLinejoin",
+        ]
+      }
+      stroke={
+        {
+          "type": 2,
+        }
+      }
+      strokeLinecap={1}
+      strokeLinejoin={1}
+      strokeWidth="2"
+    >
+      <RNSVGCircle
+        cx="12"
+        cy="12"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+            "strokeLinejoin",
+          ]
+        }
+        r="10"
+        stroke={
+          {
+            "type": 2,
+          }
+        }
+        strokeLinecap={1}
+        strokeLinejoin={1}
+        strokeWidth="2"
+      />
+      <RNSVGPath
+        d="m15 9-6 6"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+            "strokeLinejoin",
+          ]
+        }
+        stroke={
+          {
+            "type": 2,
+          }
+        }
+        strokeLinecap={1}
+        strokeLinejoin={1}
+        strokeWidth="2"
+      />
+      <RNSVGPath
+        d="m9 9 6 6"
+        fill={null}
+        propList={
+          [
+            "fill",
+            "stroke",
+            "strokeWidth",
+            "strokeLinecap",
+            "strokeLinejoin",
+          ]
+        }
+        stroke={
+          {
+            "type": 2,
+          }
+        }
+        strokeLinecap={1}
+        strokeLinejoin={1}
+        strokeWidth="2"
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <View
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    space="xs"
+    style={
+      [
+        undefined,
+        {},
+        {
+          "flexDirection": "column",
+        },
+        {},
+        {
+          "gap": 4,
+        },
+        undefined,
+      ]
+    }
+  >
+    <Text
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      size="md"
+      style={
+        [
+          undefined,
+          {},
+          {
+            "color": "#525252",
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+          },
+          {},
+          {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+          {},
+          {
+            "flex": 1,
+          },
+          {},
+          {
+            "fontWeight": "700",
+          },
+          undefined,
+        ]
+      }
+    >
+      Oh No! [Download Error]
+    </Text>
+    <Text
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      size="md"
+      style={
+        [
+          undefined,
+          {},
+          {
+            "color": "#525252",
+            "fontFamily": undefined,
+            "fontStyle": "normal",
+            "fontWeight": "400",
+            "letterSpacing": 0,
+          },
+          {},
+          {
+            "fontSize": 16,
+            "lineHeight": 22,
+          },
+          undefined,
+          {},
+          {
+            "flex": 1,
+          },
+          {},
+          undefined,
+        ]
+      }
+    >
+      There was an issue getting your contacts 😬
+    </Text>
+  </View>
+</View>
+`;

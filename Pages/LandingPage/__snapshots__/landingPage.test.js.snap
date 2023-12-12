@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LandingPage should render LandingPage component correctly 1`] = `
+<View
+  contentContainerStyle={
+    {
+      "flexGrow": 1,
+    }
+  }
+  data-style=""
+  dataSet={
+    {
+      "style": "",
+    }
+  }
+  style={
+    [
+      undefined,
+      {},
+      {},
+      {},
+      {
+        "backgroundColor": "#0b0e14",
+      },
+      {
+        "height": "100%",
+      },
+    ]
+  }
+>
+  <View
+    data-style=""
+    dataSet={
+      {
+        "style": "",
+      }
+    }
+    style={
+      [
+        undefined,
+        {},
+        {},
+        {},
+        {
+          "alignItems": "center",
+          "borderColor": "#ffedd5",
+          "borderRadius": 8,
+          "borderWidth": 2,
+          "height": "60%",
+          "justifyContent": "space-between",
+        },
+        {
+          "height": "80%",
+          "marginHorizontal": 20,
+          "marginVertical": 64,
+        },
+        undefined,
+      ]
+    }
+    sx={
+      {
+        "@base": {
+          "height": "80%",
+          "mx": "$5",
+          "my": "$16",
+        },
+        "@lg": {
+          "mx": "$32",
+          "my": "$24",
+        },
+        "borderColor": "$orange100",
+        "borderWidth": "$2",
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "alignContent": "center",
+          "height": "80%",
+          "justifyContent": "center",
+          "opacity": 0.5,
+        }
+      }
+    >
+      <Image
+        alt="noContact"
+        source={1}
+        style={
+          {
+            "height": 400,
+            "width": 400,
+          }
+        }
+      />
+    </View>
+    <View
+      data-style=""
+      dataSet={
+        {
+          "style": "",
+        }
+      }
+      style={
+        [
+          undefined,
+          {},
+          {
+            "flexDirection": "row",
+          },
+          {},
+          undefined,
+        ]
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": false,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        action="primary"
+        collapsable={false}
+        data-style=""
+        dataSet={
+          {
+            "style": "",
+          }
+        }
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        role="button"
+        size="md"
+        style={
+          [
+            undefined,
+            {},
+            {
+              "alignItems": "center",
+              "backgroundColor": "#0077E6",
+              "borderRadius": 4,
+              "flexDirection": "row",
+              "justifyContent": "center",
+            },
+            {},
+            {
+              "backgroundColor": "#0077E6",
+              "borderColor": "#4AA9FF",
+            },
+            {},
+            {
+              "height": 40,
+              "paddingHorizontal": 20,
+            },
+            {},
+            {
+              "backgroundColor": "#0077E6",
+              "borderColor": "#4AA9FF",
+            },
+            {},
+            {
+              "height": 40,
+              "paddingHorizontal": 20,
+            },
+            {},
+            {
+              "margin": 30,
+              "marginBottom": 40,
+              "marginTop": 0,
+            },
+            undefined,
+          ]
+        }
+        sx={
+          {
+            "margin": 30,
+            "marginBottom": 40,
+            "marginTop": 0,
+          }
+        }
+        variant="solid"
+      >
+        <Text
+          data-style=""
+          dataSet={
+            {
+              "style": "",
+            }
+          }
+          size="md"
+          style={
+            [
+              undefined,
+              {},
+              {
+                "color": "#525252",
+                "fontFamily": undefined,
+                "fontStyle": "normal",
+                "fontWeight": "400",
+                "letterSpacing": 0,
+              },
+              {},
+              {
+                "fontSize": 16,
+                "lineHeight": 22,
+              },
+              undefined,
+              {},
+              {
+                "color": "#FCFCFC",
+              },
+              {},
+              {
+                "color": "#FCFCFC",
+                "fontWeight": "600",
+              },
+              {
+                "color": "#005DB4",
+              },
+              {
+                "color": "#FCFCFC",
+              },
+              {},
+              {
+                "color": "#FCFCFC",
+              },
+              undefined,
+            ]
+          }
+        >
+          Tap to Scan Again
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;
